@@ -12,7 +12,9 @@
         <h1> this for inputs</h1>
     </header>
 
-    <form action="" method="get">
+   <p> welcome please comlete the inouts , <bdi> اهلا من فضلك اكمل البيانات</bdi> </p>
+
+    <form>
         <div class="inputs">
             <label> user name</label>
             <input type="text" required />
@@ -29,9 +31,88 @@
             <label>password</label>
             <input type="password" required />
         </div>
+        <hr />
 
-        <br />
+        <div class="radio">
+            <input id="m" type="radio" name="gender" value="male" />
+            <label for="m"> male </label>
+
+            <br />
+
+            <input id="f" type="radio" name="gender" value="female" />
+            <label for="f">female</label>
+        </div>
+        <hr />
+
+        <div class="select">
+            <label for="cars"> cars </label>
+            <select id="cars" name="car">
+                <option value="car1">car 1 </option>
+                <option value="car2">car 2 </option>
+                <option value="car3">car 3 </option>
+            </select>
+        </div>
+        <hr />
+
+        <div class="checkbox">
+            <p> choose the cars you interisted in</p>
+            <input id="1" type="checkbox" />
+            <label for="1">BMW</label>
+            <br />
+            <input id="2" type="checkbox" />
+            <label for="2">bugatti</label>
+            <br />
+            <input id="3" type="checkbox" />
+            <label for="3">KIA</label>
+        </div>
+
+        <hr />
+        <div class="upload_file">
+            <label> upload </label>
+            <input type="file" />
+        </div>
+        <hr />
+
+        <div class="date">
+            <label>Date</label>
+            <input type="date" />
+
+        </div>
+
+        <hr />
+
+        <div class="list">
+            <label for="language">language   </label>
+            <input list="language" />
+            <datalist id="language">
+                <option value="c++">
+                <option value="c">
+                <option value="c#">
+                <option value="HTML">
+            </datalist>
+
+        </div>
+
+
+        <hr />
+        <div class="txt_area">
+            <label for="txt"> test text </label>
+            <textarea name="txt" id="txt" cols="40" rows="8" placeholder="what do you think about us"></textarea>
+
+        </div>
+
+        <hr />
+
+        <search>
+            <input placeholder="search"/>
+        </search>
+        
+        <hr />
+        
+        <input type="reset" />
         <input type="submit" />
+        
+        <button onclick="alert('hello')"> alert </button>
     </form>
 
 </body>
