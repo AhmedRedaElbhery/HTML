@@ -1,69 +1,103 @@
-﻿p
-{
-    font-family:Calibri;
-    color:black;
-    letter-spacing:4px;
-    font-size:20px;
-    text-decoration:underline;
-    text-transform:lowercase ;
-    border-style:dashed;
-    border-width:2px 3px;
-    border-color:darkblue;
-    margin:10px;
-    padding:10px;
-}
-
-div {
-    font-family:'Agency FB';
-    font-style:italic;
-    font-weight:bolder;
-    background-color:brown;
-    padding:10px;
-}
-
-.back {
-    width: 200px;
-    height: 200px;
-    background-image: url('https://media.architecturaldigest.com/photos/63079fc7b4858efb76814bd2/16:9/w_4000,h_2250,c_limit/9.%20DeLorean-Alpha-5%20%5BDeLorean%5D.jpg');
-    background-size: cover;
-    /*background-size: 500px;*/
-    background-position: center;
-    background-repeat: no-repeat
-}
-
-.arabic{
-    direction:rtl;
-    text-indent:40px;
-    font-size:x-large ;
-    margin:10px;
-}
-
-a {
-    border-style: solid;
-    border-color: red;
-    padding: 10px;
-    margin:10px;
-    font-size:20px
-}
-a:hover{
-
-    color:blue;
-    text-decoration:line-through;
-}
-a:active {
-    color: red;
-    text-decoration: none;
-}
-ul{
-    list-style-type:square;
-    list-style-position:inside;
+﻿
+/*------------------------------ new code ---------------------------------------------------------*/
+/*  1- width
+    2-height
+    3- position
+    4- display (inline , block , none)
+    5- float , clear
+    6- grouping of classes
+    7- nesting
+    8- overflow (auto , scroll , hidden , visible)
+    9- visibility (hidden , visible )
+    10- cursor
+    11- selectors (~ , + , > , * )
+*/
+body{
     
-}
-ul li{
-    border:1px solid
-}
-.list {
-    margin-top: 20px;
-    background-color:white;
+    height:3000px;
+    font-size:20px;
+
 }
 
+.flo
+{
+    background-color:red;
+    margin:10px;
+    float:left;
+}
+
+.clear {
+    background-color: green;
+    margin: 10px;
+    clear: both;
+}
+
+p
+{
+    margin:20px;
+    display:inline;
+}
+
+a
+{
+    display:block;
+    width:10px;
+}
+
+.old
+{
+    margin-left:50px;
+}
+
+.pos
+{
+    margin-top:300px;
+    margin-left:1300px;
+    width:200px;
+    height:40px;
+    padding-top:4px;
+    background-color:black;
+    color:white;
+    position:fixed;
+
+
+}
+
+.nesting,.nesting2{
+    font-weight:bold;
+}
+
+.nesting p{
+    color:red;
+}
+
+.nesting2 p{
+    color:green;
+}
+
+.overflow {
+    margin-top:40px;
+    margin-left:15px;
+    height:100px;
+    width:200px;
+    overflow:auto;
+}
+
+.selectors p + div 
+{
+    background-color:black;
+    color:white;
+}
+
+input{
+    display:block;
+    margin:10px 20px;
+    padding:10px;
+    color:red;
+}
+
+input[placeholder="css test"]
+{
+    background-color:black;
+    color:white;
+}
