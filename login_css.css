@@ -1,35 +1,93 @@
-body {
-    background-color:beige;
-    color:black;
-}
-form {
-    font-size: 30px;
-}
-div {
-    box-shadow: 0 0 5px;
-    width: 240px;
-    height: 320px;
-    margin: 620px;
-    margin-top: 180px;
-    border-radius: 10px;
+body
+{
+    background-color:blueviolet;
 }
 
-p {
-    margin-left: 70px;
-    padding-top:10px;
+.container
+{
+    box-shadow:0 0 10px;
+    display:flex;
+    width:1100px;
+    height:600px;
+    margin-left:200px;
+    margin-top:70px;
 }
 
-input{
-    margin:20px;
-    padding:10px;
-    border-radius:10px;
 
-}
-.button{
-    background-color:black;
+.welcome
+{
+    margin:50px;
+    width:650px;
+    font-size:25px;
     color:white;
-    width:190px;
-    height:44px;
-    margin-left:15px;
-    border-radius:10px;
+
 }
+
+.welcome h1
+{
+    font-size:60px;
+    margin-left:32px;
+    margin-top:60px;
+    margin-bottom:5px;
+    letter-spacing:2px;
+}
+
+.welcome p
+{
+    
+    margin:40px;
+    margin-top:0px;
+
+}
+
+.login
+{
+    background-color:white;
+    width:450px;
+
+
+}
+
+
+.login_word {
+    align-items: center;
+    margin-left:70px;
+    margin-top:150px;
+    padding:5px;
+}
+
+.login p
+{
+    
+    margin-left:70px;
+    margin-bottom:25px;
+}
+
+.inputs input
+{
+    display:block;
+    margin:12px;
+    padding:6px;
+    border-radius:20px;
+    width:200px;
+
+}
+
+
+
+a
+{
+    margin-left:30px;
+}
+
+button {
+    background-color: blueviolet;
+    display: block;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius:20px;
+    margin-left:70px;
+    margin-top:20px;
+}
+

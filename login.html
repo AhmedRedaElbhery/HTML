@@ -4,25 +4,72 @@
 <head>
     <meta charset="utf-8" />
     <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <link rel="stylesheet" href="login_css.css" />
 </head>
 
 <body>
+
     <form>
+
+        <div class="container">
+            
+            <div class="welcome">
+                <h1>welcome to website </h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </div>
+            
+            
+            <div class="login">
+
+                <div class="login_word">
+                    <p>USER LOGIN </p>
+
+                    <div class="inputs">
+
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" required/>
+                        
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" required/>
+                    </div>
+
+                    <input id="remember me" type="checkbox" />
+                    <label for="remember me">remember me </label>
+
+                    <a href="">forget password?</a>
+                    <button type="submit">LOGIN</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </form>
+
+
+    <!--
+        <form>
 
         <div>
             <p>Login</p>
             <input type="text" required placeholder="user name" />
             <br />
             <input type="password" required placeholder="password" />
+
             <br />
-            <!--<input class="button" type="submit" onclick="alert('hello')" /> -->
-            <button class="button">submit</button>
+            <!--<input class="button" type="submit" onclick="alert('hello')" />
+            <button class="button" onsubmit="alert('hello')"  >submit</button>
         </div>
 
-    </form>
-    
-    
+        </form>
+    -->
+
+
+
 </body>
 
 </html>
